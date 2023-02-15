@@ -11,41 +11,41 @@
 
 
     <div class="container">
-        <div class="display">
-            <input type="text" id="space" placeholder="write no." ;>
+        <div class="area">
+            <input type="text" id="space" placeholder="Lets Go!!">
         </div>
 
         <div class="buttons">
-            <button class="ac"></button>
-            <button class="del"></button>
-            <button class="div"></button>
+            <button href="#" class="ac" value="AC"onclick="space.value= '' ">AC</button>
+            <button href="#" class="del" value="DEL" onclick="space.value= space.value.toString().slice(0,-1)">DEL</button>
+            <button href="#" class="div" value="/" onclick="space.value += '/' ">/</button>
         </div>
 
         <div class="buttons">
-            <button class="no"></button>
-            <button class="no"></button>
-            <button class="no"></button>
-            <button class="mul"></button>
+            <button href="#" class="no" value="1" onclick="space.value += '1' ">1</button>
+            <button href="#" class="no" value="2" onclick="space.value += '2' ">2</button>
+            <button href="#" class="no" value="3" onclick="space.value += '3' ">3</button>
+            <button href="#" class="mul" value="*" onclick="space.value += '*' ">*</button>
         </div>
 
         <div class="buttons">
-            <button class="no"></button>
-            <button class="no"></button>
-            <button class="no"></button>
-            <button class="add"></button>
+            <button href="#" class="no" value="4" onclick="space.value += '4' ">4</button>
+            <button href="#" class="no" value="5" onclick="space.value += '5' ">5</button>
+            <button href="#" class="no" value="6" onclick="space.value += '6' ">6</button>
+            <button href="#" class="add" value="+" onclick="space.value += '+' ">+</button>
         </div>
 
         <div class="buttons">
-            <button class="no"></button>
-            <button class="no"></button>
-            <button class="no"></button>
-            <button class="sub"></button>
+            <button href="#" class="no" value="7" onclick="space.value += '7' ">7</button>
+            <button href="#" class="no" value="8" onclick="space.value += '8' ">8</button>
+            <button href="#" class="no" value="9" onclick="space.value += '9' ">9</button>
+            <button href="#" class="sub" value="-" onclick="space.value += '-' ">-</button>
         </div>
 
         <div class="buttons">
-            <button class="dot"></button>
-            <button class="no"></button>
-            <button class="equal"></button>
+            <button href="#" class="dot" value="." onclick="space.value += '.' ">.</button>
+            <button href="#" class="no" value="0" onclick="space.value += '0' ">0</button>
+            <button href="#"class="equal" value="" onclick= "space.value = eval(space.value) ">=</button>
         </div>
 
     </div>
